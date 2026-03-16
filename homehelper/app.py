@@ -74,7 +74,7 @@ class HomeHelperApp(Adw.Application):
         title.add_css_class("title-1")
         box.append(title)
 
-        subtitle = Gtk.Label(label=_("Steg-för-steg instruktioner för hemmet")
+        subtitle = Gtk.Label(label=_("Step-by-step instructions for the home")
         subtitle.add_css_class("dim-label")
         box.append(subtitle)
 

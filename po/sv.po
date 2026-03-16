@@ -1,14 +1,17 @@
-# Swedish translation
-# Copyright (C) 2024
-# This file is distributed under the same license as the package.
-#
 msgid ""
 msgstr ""
+"Project-Id-Version: homehelper 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2026-03-16 12:00+0100\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
+"Language-Team: Swedish\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Step-by-step instructions for the home"
+msgstr "Steg-för-steg instruktioner för hemmet"
 
 msgid "HomeHelper"
 msgstr "HomeHelper"
