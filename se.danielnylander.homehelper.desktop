@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=HomeHelper
+Name[sv]=Hemhjälp
+Comment=Household chores assistant
+Comment[sv]=Hushållsassistent
+GenericName=Accessibility Application
+GenericName[sv]=Tillgänglighetsapp
+Exec=python3 -m homehelper
+Icon=homehelper
+Terminal=false
+Type=Application
+Categories=Utility;Accessibility;
+Keywords=accessibility;a11y;
+Keywords[sv]=tillgänglighet;funktionsnedsättning;
