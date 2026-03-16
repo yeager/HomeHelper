@@ -1,0 +1,68 @@
+"""Inbyggda instruktioner för hushållssysslor."""
+
+CHORES = {
+    "diska": {
+        "title": "Diska",
+        "icon": "🍽️",
+        "description": "Disk och rengör köksredskap",
+        "steps": [
+            {"text": "Skrapa av matrester i soporna", "timer": 0},
+            {"text": "Fyll ho med varmt vatten och diskmedel", "timer": 0},
+            {"text": "Diska glas och koppar först", "timer": 0},
+            {"text": "Diska bestick", "timer": 0},
+            {"text": "Diska tallrikar och skålar", "timer": 0},
+            {"text": "Diska kastruller och stekpannor", "timer": 0},
+            {"text": "Skölj allt i rent vatten", "timer": 0},
+            {"text": "Ställ i diskställ eller torka av", "timer": 0},
+            {"text": "Torka av diskbänken", "timer": 0},
+        ],
+    },
+    "tvätta": {
+        "title": "Tvätta kläder",
+        "icon": "👕",
+        "description": "Tvätta och hantera kläder",
+        "steps": [
+            {"text": "Sortera kläder: vitt, färgat, mörkt", "timer": 0},
+            {"text": "Kontrollera fickor för lösa föremål", "timer": 0},
+            {"text": "Lägg i tvättmaskinen (fyll ej för fullt)", "timer": 0},
+            {"text": "Tillsätt tvättmedel", "timer": 0},
+            {"text": "Välj rätt program och temperatur", "timer": 0},
+            {"text": "Starta maskinen", "timer": 0},
+            {"text": "Vänta tills maskinen är klar", "timer": 3600},
+            {"text": "Häng upp eller lägg i torktumlaren", "timer": 0},
+            {"text": "Vik och lägg in i garderob", "timer": 0},
+        ],
+    },
+    "städa": {
+        "title": "Städa hemmet",
+        "icon": "🧹",
+        "description": "Allmän städning av hemmet",
+        "steps": [
+            {"text": "Plocka undan lösa saker", "timer": 0},
+            {"text": "Dammsug golven i alla rum", "timer": 0},
+            {"text": "Moppa hårda golv", "timer": 0},
+            {"text": "Torka av bord och ytor", "timer": 0},
+            {"text": "Rengör speglar och glasrutor", "timer": 0},
+            {"text": "Rengör badrummet (toalett, handfat, dusch)", "timer": 0},
+            {"text": "Töm papperskorgar", "timer": 0},
+            {"text": "Byt sängkläder vid behov", "timer": 0},
+        ],
+    },
+    "laga_mat": {
+        "title": "Laga mat",
+        "icon": "🍳",
+        "description": "Grundläggande matlagning",
+        "steps": [
+            {"text": "Bestäm vad du ska laga", "timer": 0},
+            {"text": "Kontrollera att du har alla ingredienser", "timer": 0},
+            {"text": "Tvätta händerna noga", "timer": 30},
+            {"text": "Förbered ingredienser: skala, skär, mät upp", "timer": 0},
+            {"text": "Värm ugn/spis enligt recept", "timer": 0},
+            {"text": "Tillaga maten enligt instruktioner", "timer": 0},
+            {"text": "Kontrollera att maten är genomstekt/kokt", "timer": 0},
+            {"text": "Duka bordet", "timer": 0},
+            {"text": "Servera maten", "timer": 0},
+            {"text": "Diska efter maten (se Diska-sysslan!)", "timer": 0},
+        ],
+    },
+}

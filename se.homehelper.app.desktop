@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=HomeHelper
+Comment=Visuella instruktioner för hushållssysslor
+Exec=homehelper
+Icon=preferences-home-symbolic
+Terminal=false
+Type=Application
+Categories=Utility;GTK;
+Keywords=hem;sysslor;instruktioner;städa;diska;tvätta;
