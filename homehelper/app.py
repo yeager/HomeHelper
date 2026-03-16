@@ -70,7 +70,7 @@ class HomeHelperApp(Adw.Application):
         scroll.set_child(box)
 
         # Rubrik
-        title = Gtk.Label(label=_("Välj en syssla")
+        title = Gtk.Label(label=_("Select en syssla")
         title.add_css_class("title-1")
         box.append(title)
 
@@ -104,7 +104,7 @@ class HomeHelperApp(Adw.Application):
             listbox.append(row)
 
         # Återställ-knapp
-        reset_btn = Gtk.Button(label=_("Återställ all progress")
+        reset_btn = Gtk.Button(label=_("Reset all progress")
         reset_btn.add_css_class("destructive-action")
         reset_btn.set_halign(Gtk.Align.CENTER)
         reset_btn.set_margin_top(12)
