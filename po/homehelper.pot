@@ -1,0 +1,36 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-16 11:31+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /tmp/HomeHelper/homehelper/app.py:55
+msgid "HomeHelper"
+msgstr ""
+
+#: /tmp/HomeHelper/homehelper/app.py:77
+msgid "Steg-för-steg instruktioner för hemmet"
+msgstr ""
+
+#. Rubrik
+#: /tmp/HomeHelper/homehelper/app.py:73
+msgid "Välj en syssla"
+msgstr ""
+
+#. Återställ-knapp
+#: /tmp/HomeHelper/homehelper/app.py:107
+msgid "Återställ all progress"
+msgstr ""

@@ -7,6 +7,9 @@ setup(
     author="HomeHelper",
     license="MIT",
     packages=find_packages(),
+        package_data={
+        "": ["locale/*/LC_MESSAGES/*.mo"],
+    },
     entry_points={
         "console_scripts": [
             "homehelper=homehelper.app:main",

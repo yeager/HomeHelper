@@ -1,3 +1,4 @@
+from homehelper.i18n import _
 """Inbyggda instruktioner för hushållssysslor."""
 
 CHORES = {

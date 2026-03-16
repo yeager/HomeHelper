@@ -5,6 +5,7 @@ import os
 import sys
 
 import gi
+from homehelper.i18n import _
 
 gi.require_version("Gtk", "4.0")
 gi.require_version("Adw", "1")
@@ -51,7 +52,7 @@ class HomeHelperApp(Adw.Application):
     # -- Syssellista --
 
     def build_chore_list_page(self):
-        page = Adw.NavigationPage(title="HomeHelper")
+        page = Adw.NavigationPage(title=_("HomeHelper")
         toolbar = Adw.ToolbarView()
         page.set_child(toolbar)
 
@@ -69,11 +70,11 @@ class HomeHelperApp(Adw.Application):
         scroll.set_child(box)
 
         # Rubrik
-        title = Gtk.Label(label="Välj en syssla")
+        title = Gtk.Label(label=_("Välj en syssla")
         title.add_css_class("title-1")
         box.append(title)
 
-        subtitle = Gtk.Label(label="Steg-för-steg instruktioner för hemmet")
+        subtitle = Gtk.Label(label=_("Steg-för-steg instruktioner för hemmet")
         subtitle.add_css_class("dim-label")
         box.append(subtitle)
 
@@ -103,7 +104,7 @@ class HomeHelperApp(Adw.Application):
             listbox.append(row)
 
         # Återställ-knapp
-        reset_btn = Gtk.Button(label="Återställ all progress")
+        reset_btn = Gtk.Button(label=_("Återställ all progress")
         reset_btn.add_css_class("destructive-action")
         reset_btn.set_halign(Gtk.Align.CENTER)
         reset_btn.set_margin_top(12)
